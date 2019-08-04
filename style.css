@@ -1,16 +1,104 @@
+/* 
+Doing so ensures that those styles are read first and that all of the different web browsers 
+are working from a common baseline. 
+http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Eric Meyer’s reset done*/
+
+/*form for all the page*/
+
 html {
-    font-size : 10px;
+    font-size: 20px;
 }
 
 html @font-face {
-    font-family:"ASAP": src: url(asap_[fr.allfont.net].ttf);
+    font-family: "ASAP": src: url(http://scripts.sil.org/OFL);
 }
 
-html {background: }
+html {
+    background-color: ivory;
+}
 
+/*END html form*/
 
-/*rem*/
+/*Start Block form*/
+
+header {
+    background-color: grey; display: block; margin-bottom: 20px; padding-left: 30px; padding-right: 30px;
+}
+h1 {
+    width: 400px; height: 20px; margin: 10px 20px; border: 4px solid ivory;
+}
+
+main {
+    display: block; margin-top: 20px; padding-left: 30px; width: 60%;
+}
+
+aside {
+    background-color: yellow; display: block; margin-top: 20px; padding-right: 30px; width: 40%;
+}
+
+/*END block form*/
+
+/*others*/
+
+section article {
+    display: inline;
+}
+
+.btn {
+    font-size: 5rem;
+}
+
+/*rem - need to practice*/
 
 
 /*.p2 {
-    color : hsla(hue, saturation, lightness, alpha)*/
+    color : hsla(hue, saturation, lightness, alpha) - need to practice*/
