@@ -1,7 +1,12 @@
 html {
-    font-size : 10px
+    font-size : 10px;
 }
 
+html @font-face {
+    font-family:"ASAP": src: url(asap_[fr.allfont.net].ttf);
+}
+
+html {background: }
 
 
 /*rem*/
