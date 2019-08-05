@@ -52,19 +52,17 @@ table {
 
 /*Eric Meyer’s reset done*/
 
-/*form for all the page*/
+/*form for all the page==============================================================================================*/
 
 html {
-    font-size: 20px;
+	font-size: 10px;
+	font-size: 1.6rem;
+	font-family: 'Libre Caslon Text', serif;
+	font-family: 'Open Sans', sans-serif; /* the last one is used*/
+	background: ivory
 }
 
-html @font-face {
-    font-family: "ASAP": src: url(http://scripts.sil.org/OFL);
-}
 
-html {
-    background-color: ivory;
-}
 
 /*END html form*/
 
