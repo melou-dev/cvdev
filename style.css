@@ -68,19 +68,36 @@ html {
 
 /*Start Block form*/
 
-header {
-    background-color: grey; display: block; margin-bottom: 20px; padding-left: 30px; padding-right: 30px;
-}
-h1 {
-    width: 400px; height: 20px; margin: 10px 20px; border: 4px solid ivory;
+.box1 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1300px;
+	height: 400px;
+	background-color: grey; 
+	display: block; 
+	margin-bottom: 20px; 
+	padding-left: 30px; 
+	padding-right: 30px;
+	}
+
+.box2 {
+	position: absolute
+	top: 
+	display: block; 
+	margin-top: 20px; 
+	padding-left: 30px; 
+	width: 55%;
 }
 
-main {
-    display: block; margin-top: 20px; padding-left: 30px; width: 60%;
-}
-
-aside {
-    background-color: yellow; display: block; margin-top: 20px; padding-right: 30px; width: 40%;
+.box3 {
+	position: absolute
+	background-color: yellow;
+	display: block;
+	margin-top: 20px;
+	padding-right: 30px; 
+	width: 40%;
+	float: right;
 }
 
 /*END block form*/
