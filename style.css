@@ -123,9 +123,8 @@ header{
 
 .HeaderWithPicture{
     grid-area: HeaderWithPicture;
-    background-image: ;
-    width: 100%;
-    height: auto;
+    background-image: url(https://github.com/melou-dev/cvdev/blob/master/image/PhotoHeaderGraffitiFille.jpeg?raw=true);
+    background-size: cover;
 }
 
 .profil{
@@ -149,6 +148,15 @@ header {
     background: url() no-repeat center;
     height: 400px;
   }
+
+.HeaderWithPicture{
+    color: white;
+}
+
+.HeaderWithPicture h1{
+    font-size: 3rem;
+    font-style: inherit;
+}
 
 /* 
 =======================================================================================================================
