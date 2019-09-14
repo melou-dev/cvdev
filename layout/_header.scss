@@ -1,0 +1,16 @@
+.HeaderWithPicture{
+    grid-area: HeaderWithPicture;
+    background-image: url(https://github.com/melou-dev/cvdev/blob/master/image/PhotoHeaderGraffitiFille.jpeg?raw=true);
+    background-size: cover;
+    color: white
+}
+
+header {
+    background: url() no-repeat center;
+    height: 25%;
+  }
+
+.HeaderWithPicture h1{
+    font-size: 3rem;
+    font-style: inherit;
+}
