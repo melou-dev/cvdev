@@ -73,7 +73,7 @@ body {
   background-size: cover;
   color: white;
   background: url() no-repeat center;
-  padding: 2% 60% 2% 10%;
+  padding: 2%;
 }
 
 .HeaderWithPicture h1 {
@@ -169,6 +169,26 @@ header {
 
 .mediabtn {
   grid-area: mediabtn;
+}
+
+.HeaderWithPicture {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 1rem;
+  grid-template-areas: "photo photo photo myname myname myname myname myname info info info info" "photo photo photo myname myname myname myname myname info info info info";
+}
+
+div {
+  grid-area: myname;
+}
+
+figure {
+  grid-area: photo;
+}
+
+ul {
+  grid-area: info;
 }
 
 /*# sourceMappingURL=style.css.map */
