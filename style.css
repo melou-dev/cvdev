@@ -64,18 +64,16 @@ html {
 
 body {
   font-size: 1.5rem;
+  line-height: 2.5rem;
 }
 
 .HeaderWithPicture {
   grid-area: HeaderWithPicture;
-  background-image: url(https://github.com/melou-dev/cvdev/blob/master/image/PhotoHeaderGraffitiFille.jpeg?raw=true);
+  background-image: url();
   background-size: cover;
   color: white;
-}
-
-header {
   background: url() no-repeat center;
-  height: 25%;
+  padding: 2% 60% 2% 10%;
 }
 
 .HeaderWithPicture h1 {
