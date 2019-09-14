@@ -117,21 +117,22 @@ ul {
 LAYOUT fOR HEADER
 =======================================================================================================================
 */
-figure {
+header figure {
   text-align: center;
   padding: 4%;
 }
 
-div {
+header div {
   padding: 4%;
 }
 
-ul {
+header ul {
   padding: 4%;
 }
 
-article {
+header article {
   padding: 2%;
+  text-align: center;
 }
 
 header section {
